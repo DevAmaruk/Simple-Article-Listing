@@ -1,0 +1,60 @@
+/* FONTS */
+
+:root {
+  /* COLORS */
+  --pure-black: #000000;
+  --dark-grey: #4d5562;
+  --light-grey: #d9d9d9;
+  --light-white: #f8fafc;
+
+  /* SEMANTIC TOKENS */
+  --page-background: var(--light-white);
+  --divider: var(--light-grey);
+  --primary-text: var(--pure-black);
+  --secondary-text: var(--dark-grey);
+}
+
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+header,
+footer,
+main,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* TEXT PRESETS */
+
+.poppins-heading,
+.poppins-small-heading {
+  font-weight: 600;
+}
+
+.poppins-heading {
+  font-size: 2.25rem;
+}
+
+.poppins-small-heading {
+  font-size: 1.25rem;
+}
+
+.poppins-small-text {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
